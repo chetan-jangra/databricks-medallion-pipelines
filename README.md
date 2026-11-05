@@ -10,8 +10,8 @@ Raw Data  →  🥉 Bronze  →  🥈 Silver  →  🥇 Gold  →  Analytics
 ```
 
 - **Bronze:** raw data loaded as-is into a Spark DataFrame
-- **Silver:** data cleaning, such as handling null values and removing duplicates
-- **Gold:** aggregated, business-ready tables for analysis
+- **Silver:** data cleaning (filling null values, removing duplicates) and feature columns such as Tax and category
+- **Gold:** final business-ready tables for analysis
 
 ## Pipelines Included
 
