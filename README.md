@@ -6,7 +6,7 @@ Seven end-to-end data pipelines built on **Databricks** using the **Medallion Ar
 
 ```
 Raw Data  →  🥉 Bronze  →  🥈 Silver  →  🥇 Gold  →  Analytics
-            (raw ingest)  (cleaned data)  (business-ready aggregates)
+            (raw ingest)  (cleaned data)  (business-ready tables)
 ```
 
 - **Bronze:** raw data loaded as-is into a Spark DataFrame
